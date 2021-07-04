@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    font-family: 'Ubuntu', sans-serif;
+}
+
+section{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 900;
+}
+
+span{
+    color: orange;
+}
+
+.half-width{
+    width: 50%;
+    padding: 5%;
+    
+}
+
+.half-width img{
+    width: 100%;
+}
+.hire-button{
+    background-image: linear-gradient(90deg,tomato,orange);
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
