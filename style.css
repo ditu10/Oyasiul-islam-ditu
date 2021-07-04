@@ -5,16 +5,30 @@
     
     font-family: 'Ubuntu', sans-serif;
 }
+p{
+    font-size: 20px;
+    font-weight: 400;
+}
 
-section{
+.first-section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
     display: flex;
 }
 
+.middle-section{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+}
+.dream-big-h1{
+    padding-top: 60px;
+}
+
 h1{
     font-size: 50px;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 span{
@@ -39,4 +53,51 @@ span{
     font-size: 20px;
     padding: 10px 20px;
     border-radius: 6px;
+}
+
+.last-section{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.last-section h3{
+    color: orange;
+    padding: 20px 0px;
+}
+.last-section h1{
+    font-size: 35px;
+}
+
+.last-section h1{
+    margin-left: 5%;
+    font-size: 40px;
+}
+
+.half-width2{
+    width: 40%;
+    padding: 3%;
+    margin: 5%;
+    border-image: linear-gradient(tomato,orange);
+    border-image-slice: 1;
+    border-left: 10px solid;
+    box-shadow: 5px 5px 40px rgba(177, 177, 177, 0.979);
+}
+
+.half-width3{
+    width: 40%;
+    padding: 3%;
+    margin: 5%;
+    border-image: linear-gradient(cyan,blue);
+    border-image-slice: 1;
+    border-left: 10px solid;
+    box-shadow: 5px 5px 40px rgba(177, 177, 177, 0.979);
+    
+}
+.flexible-container{
+    display: flex;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
 }
